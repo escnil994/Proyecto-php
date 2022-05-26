@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'd0de2a0ea02018dbba2c917579a8c4f25d63b993',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'd0de2a0ea02018dbba2c917579a8c4f25d63b993',
+            'dev_requirement' => false,
+        ),
+        'paypal/paypal-payouts-sdk' => array(
+            'pretty_version' => 'v1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paypal/paypal-payouts-sdk',
+            'aliases' => array(),
+            'reference' => '45558e007569bd5b1967c07abc6505a58b8d9672',
+            'dev_requirement' => false,
+        ),
+        'paypal/paypalhttp' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paypal/paypalhttp',
+            'aliases' => array(),
+            'reference' => '1ad9b846a046f09d6135cbf2cbaa7701bbc630a3',
+            'dev_requirement' => false,
+        ),
+    ),
+);
